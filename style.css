@@ -1,3 +1,25 @@
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url("assets/fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
+    font-family: 'Roboto';
     background-color: powderblue;
+}
+
+h1 {
+    font-family: 'Cinzel';
 }
