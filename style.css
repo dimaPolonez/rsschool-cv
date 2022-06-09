@@ -13,13 +13,89 @@
     box-sizing: border-box;
 }
 
+.main-block {
+    background-color: white;
+    position: absolute;
+    width: 840px;
+    height: 997px;
+    left: 370px;
+    top: 443px;
+}
 
+.yelow-vertikal {
+    background-color: #e0b300;
+    width: 285px;
+    height: 1440px;
+    z-index: 3;
+    position: absolute;
+    left: 65px;
+    text-align: center;
+
+}
+
+.black-gorizontal {
+    background-color: #222130;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 1200px;
+    height: 278px;
+    text-align: center;
+    top: 149px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px black;
+}
+
+header {
+    width: 400px;
+    height: 278px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    left: 500px;
+}
 
 body {
     font-family: 'Roboto';
-    background-color: powderblue;
+    position: static;
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'Cinzel';
+    color:#e0b300;
+}
+
+h3 {
+    border: 1px solid black;
+    box-shadow: 0 0 20px black;
+    font-family: 'Cinzel';
+    text-align: center;
+
+}
+h4 {
+    font-family: 'Cinzel';
+}
+
+hr {
+    border: 1px solid black;
+    box-shadow: 0 0 20px #e0b300;
+}
+
+a {
+    font-family: 'Cinzel';
+    text-decoration: none;
+    color: black;
+}
+
+.skills {
+    width: 280px;
+    position: absolute;
+    left: 10px;
+    text-align: center;
+}
+
+pre{
+    border: 1px solid black;
+    box-shadow: 0 0 20px black;
 }
