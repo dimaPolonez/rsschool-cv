@@ -8,49 +8,86 @@
 </head>
 
 <body>
-    <div class="black-gorizontal">
+
+    <div class="black-gorizontal-header">
         <header class="header">
             <h1>DZMITRY PASAVETS</h1>
             <hr>
             <h2>Frontend Developer</h2>
+            <img src="./assets/img/favicon.png" alt="" width="100">
         </header>
     </div>
 
-    <div class="yelow-vertikal">
-        <h3>Location</h3>
-        <h4>Belarus, Drohiczyn</h4>
-        <img src="./assets/img/ava.jpg" alt="My photo" width="285">
-        <h3>Contacts</h3>
-        <div><img src="./assets/img/phone.png" alt="" width="50">8 (029) 739 04 50 (Belarus)</div>
-        <a href="https://github.com/dimaPolonez"><img src="./assets/img/github.png" alt="" width="50"></a>
-        <a href="https://discord.com/users/939083100925874186"><img src="./assets/img/diskord.png" alt=""
-                width="50"></a>
-        <a href="https://t.me//dimaPolonez"><img src="./assets/img/telegram.png" alt="" width="50"></a>
-        <a href="https://www.facebook.com/profile.php?id=100081331069651"><img src="./assets/img/facebook.png" alt=""
-                width="50"></a>
-        <a href="https://www.linkedin.com/in/dimapolonez/ "><img src="./assets/img/linkedn.png" alt="" width="50"></a>
+    <div class="black-gorizontal-footer">
+        <footer class="footer">
+            <div class="ninja-2"><img src="./assets/img/nindja-down-2.png" alt="" width="200"></div>
 
-
-        <h3>Skills</h3>
-        <img src="./assets/img/favicon.png" alt="" width="100">
-        <div class="skills">
-            <h4>HTML</h4>
-            <h4>CSS</h4>
-            <h4>JavaScript</h4>
-            <h4>GIT</h4>
-        </div>
-
+            <a href="https://github.com/dimaPolonez">
+                <div class="git-footer"><img src="./assets/img/github-footer.png" alt="" width="80"></div>
+                <br>
+                <h2>@dimaPolonez (c) 2022</h2>
+            </a>
+            <a href="https://rs.school/js/"><img src="./assets/img/rs_school_js.svg" alt="rs.school" width="400"></a>
+        </footer>
     </div>
 
-    <div class="main-block">
-        <main class="main">
+    <div class="yelow-vertikal">
+        <h3>Location<br>
+            Belarus, Drohiczyn</h3>
+        <img src="./assets/img/ava.jpg" alt="My photo" width="285">
+        <h3>Contacts</h3>
+        <div>
+            <img src="./assets/img/phone.png" alt="" width="50">8 (029) 739 04 50 (Belarus)
+        </div>
+        <a href="https://github.com/dimaPolonez" target="_blank"><img src="./assets/img/github.png" alt="" width="50"></a>
+        <a href="https://discord.com/users/939083100925874186" target="_blank"><img src="./assets/img/diskord.png" alt=""
+                width="50"></a>
+        <a href="https://t.me//dimaPolonez" target="_blank"><img src="./assets/img/telegram.png" alt="" width="50"></a>
+        <a href="https://www.facebook.com/profile.php?id=100081331069651" target="_blank"><img src="./assets/img/facebook.png" alt=""
+                width="50"></a>
+        <a href="https://www.linkedin.com/in/dimapolonez/ " target="_blank"><img src="./assets/img/linkedn.png" alt="" width="50"></a>
 
-            <h3>About me</h3>
-            <h4>Shoemaker without boots. Programmer by education, unrealized by vocation.</h4>
+        <h3>Skills</h3>
+        <div class="skills">
+            <ul>
+                <li>
+                    <h4>HTML</h4>
+                </li>
+                <li>
+                    <h4>CSS</h4>
+                </li>
+                <li>
+                    <h4>JavaScript</h4>
+                </li>
+                <li>
+                    <h4>GIT</h4>
+                </li>
+                <li>
+                    <h4>English [A2]</h4>
+                </li>
+            </ul>
+        </div>
+        <img src="./assets/img/ninja-down.png" alt="" width="150">
+    </div>
+
+    <main class="main">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#about"><h2>About me</h2></a></li>
+                <li><a href="#code"><h2>Code examples</h2></a></li>
+                <li><a href="#experience"><h2>Work experience</h2></a></li>
+                <li><a href="#education"><h2>Education</h2></a></li>
+                <li><a href="#project"><h2>Projects</h2></a></li>
+            </ul>
+        </nav>
+
+        <h3 id="about">About me</h3>
+        <h4>Shoemaker without boots. Programmer by education, unrealized by vocation.</h4>
 
 
-            <h3>Code examples</h3>
-            <pre>
+        <h3 id="code">Code examples</h3>
+        <pre>
         numProst(numberMax){ //Function for output of prime numbers
     
         let baseArr = [];
@@ -70,26 +107,40 @@
         
         return prostArr;
         }
-    </pre>
+            </pre>
 
-            <h3>Work experience</h3>
-            <h4>Experience as a system administrator - 3 years</h4>
-            <h4>Remote work on site administration - 3 years</h4>
+        <h3 id="experience">Work experience</h3>
+        <h4>Experience as a system administrator - 3 years</h4>
+        <h4>Remote work on site administration - 3 years</h4>
 
-            <h3>Education</h3>
-            <h4>Secondary-special education: Pinsk College of Light Industry - specialty programmer (2009-2015)</h4>
-            <h4>Now I am studying courses in Rolling Scopes School</h4>
+        <h3 id="education">Education</h3>
+        <h4>Pinsk College of Light Industry - specialty programmer (2009-2015)</h4>
+        <h4>Now I am studying courses in Rolling Scopes School</h4>
 
-            <h3>English language </h3>
-            <h4>Level - A1 Beginner </h4>
-
-        </main>
-
-        <footer class="footer">
-
-
-        </footer>
-    </div>
+        <h3 id="project">Projects</h3>
+        <ul>
+            <li>
+                <a href="https://dimapolonez.github.io/rsschool-cv/cv">
+                    <h4>My CV in Markdown</h4>
+                </a>
+            </li>
+            <li>
+                <a href="https://dimapolonez.github.io/rsschool-cv">
+                    <h4>My CV in Web</h4>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h4>My future project 3</h4>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h4>My future project 4</h4>
+                </a>
+            </li>
+        </ul>
+    </main>
 
 </body>
 
