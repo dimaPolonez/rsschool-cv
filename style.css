@@ -1,9 +1,4 @@
 @font-face {
-    font-family: Roboto;
-    src: url("assets/fonts/Roboto/Roboto-Medium.ttf");
-}
-
-@font-face {
     font-family: Cinzel;
     src: url("assets/fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
 }
@@ -13,19 +8,19 @@
     box-sizing: border-box;
 }
 
-.main-block {
+main {
     background-color: white;
     position: absolute;
-    width: 840px;
+    width: 843px;
     height: 997px;
-    left: 370px;
-    top: 443px;
+    left: 365px;
+    top: 380px;
 }
 
 .yelow-vertikal {
     background-color: #e0b300;
     width: 285px;
-    height: 1440px;
+    height: 1900px;
     z-index: 3;
     position: absolute;
     left: 65px;
@@ -33,16 +28,25 @@
 
 }
 
-.black-gorizontal {
+.black-gorizontal-header {
     background-color: #222130;
-    color: white;
     z-index: 2;
     position: absolute;
     width: 1200px;
     height: 278px;
     text-align: center;
-    top: 149px;
-    border: 1px solid black;
+    top: 126px;
+    box-shadow: 0 0 20px black;
+}
+
+.black-gorizontal-footer {
+    background-color: #222130;
+    z-index: 2;
+    position: absolute;
+    width: 1200px;
+    height: 278px;
+    text-align: center;
+    top: 1500px;
     box-shadow: 0 0 20px black;
 }
 
@@ -51,14 +55,46 @@ header {
     height: 278px;
     position: absolute;
     text-align: center;
-    top: 60px;
+    top: 10px;
     left: 500px;
 }
 
-body {
-    font-family: 'Roboto';
-    position: static;
+.menu {
+    background-color: #222130;
+    box-shadow: 0 0 20px black;
+
 }
+
+.menu ul {
+        list-style-type: none;
+        overflow: hidden;
+}
+
+.menu li {
+        float: left;
+}
+
+.menu li a {
+    display: block;
+    color: #222130;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.ninja-2 {
+    position: absolute;
+    top: 10px;
+    left: 950px;
+}
+
+.git-footer{
+    position: absolute;
+    top: 5px;
+    left: 370px; 
+}
+
 
 h1,
 h2 {
@@ -67,7 +103,6 @@ h2 {
 }
 
 h3 {
-    border: 1px solid black;
     box-shadow: 0 0 20px black;
     font-family: 'Cinzel';
     text-align: center;
@@ -75,11 +110,12 @@ h3 {
 }
 h4 {
     font-family: 'Cinzel';
+    text-align: left;
 }
 
 hr {
-    border: 1px solid black;
-    box-shadow: 0 0 20px #e0b300;
+    border: 1px solid #222130;
+    box-shadow: 0 0 10px #e0b300;
 }
 
 a {
@@ -90,12 +126,12 @@ a {
 
 .skills {
     width: 280px;
-    position: absolute;
     left: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 pre{
-    border: 1px solid black;
     box-shadow: 0 0 20px black;
+    text-align: left;
 }
+
