@@ -1,6 +1,6 @@
 ## MY CV - my experience
 
-![Photo](ava.jpg "Photo")
+![Photo](./assets/img/ava-cv.jpg "Photo")
 
 ### Name and surname
 Dzmitry Pasavets
