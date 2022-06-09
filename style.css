@@ -8,10 +8,20 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 main {
     background-color: white;
     position: absolute;
-    width: 843px;
+    width: 835px;
     height: 997px;
     left: 365px;
     top: 380px;
@@ -19,10 +29,10 @@ main {
 
 .yelow-vertikal {
     background-color: #e0b300;
-    width: 285px;
-    height: 1900px;
     z-index: 3;
     position: absolute;
+    width: 285px;
+    height: 1900px;
     left: 65px;
     text-align: center;
 
@@ -35,7 +45,7 @@ main {
     width: 1200px;
     height: 278px;
     text-align: center;
-    top: 126px;
+    top: 118px;
     box-shadow: 0 0 20px black;
 }
 
@@ -59,6 +69,7 @@ header {
     left: 500px;
 }
 
+
 .menu {
     background-color: #222130;
     box-shadow: 0 0 20px black;
@@ -66,12 +77,12 @@ header {
 }
 
 .menu ul {
-        list-style-type: none;
-        overflow: hidden;
+    list-style-type: none;
+    overflow: hidden;
 }
 
 .menu li {
-        float: left;
+    float: left;
 }
 
 .menu li a {
@@ -83,23 +94,32 @@ header {
     font-size: 12px;
 }
 
+.menu-contacts ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu-contacts li {
+    float: left;
+}
+
 .ninja-2 {
     position: absolute;
     top: 10px;
     left: 950px;
 }
 
-.git-footer{
+.git-footer {
     position: absolute;
     top: 5px;
-    left: 370px; 
+    left: 370px;
 }
 
 
 h1,
 h2 {
     font-family: 'Cinzel';
-    color:#e0b300;
+    color: #e0b300;
 }
 
 h3 {
@@ -108,6 +128,7 @@ h3 {
     text-align: center;
 
 }
+
 h4 {
     font-family: 'Cinzel';
     text-align: left;
@@ -130,8 +151,7 @@ a {
     text-align: left;
 }
 
-pre{
+pre {
     box-shadow: 0 0 20px black;
     text-align: left;
 }
-
